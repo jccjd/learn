@@ -4,7 +4,7 @@ import java.awt.*;
 import java.awt.event.WindowAdapter;
 import java.awt.event.WindowEvent;
 
-/**
+/**现在更新
  * Created by lenovo on 2017/6/6.
  */
 public class GameFrame extends Frame{
