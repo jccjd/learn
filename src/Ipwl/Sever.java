@@ -27,6 +27,11 @@ public class Sever {
 
             }
             System.out.println("disconnect");
+            reader.close();
+            isreader.close();
+            input.close();
+            server.close();
+            socket.close();
         } catch (Exception e) {
             e.printStackTrace();
         }
