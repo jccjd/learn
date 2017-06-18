@@ -5,7 +5,7 @@ import java.io.OutputStream;
 import java.net.Socket;
 import java.net.UnknownHostException;
 
-/**
+/** test
  * Created by lenovo on 2017/6/18.
  */
 public class Client {
