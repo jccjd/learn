@@ -23,7 +23,7 @@ public class Sever {
                 String str = reader.readLine();
                 if (str.equals("exit"))
                     break;
-                System.out.println("Receive content"+str);
+                System.out.println("Receive content:"+str);
 
             }
             System.out.println("disconnect");

@@ -13,8 +13,9 @@ public class Client {
         try {
             Socket socket = new Socket("localhost", 9527);
             OutputStream out = socket.getOutputStream();
-            out.write("This is my first time visit to server".getBytes());
+            out.write("This is my first time visit to server:\n".getBytes());
             out.write("hello\n".getBytes());
+            out.write("exit\n".getBytes());
         } catch (UnknownHostException e) {
             e.printStackTrace();
         } catch (IOException e){

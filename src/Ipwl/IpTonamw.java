@@ -17,7 +17,7 @@ public class IpTonamw {
                 host = InetAddress.getByName(IP);
                 if(host.isReachable(1000)){
                     String hostName = host.getHostName();
-                    System.out.println("IP地址" + IP+"的主机名称是"+hostName);
+                    System.out.println("IP地址" +IP+"的主机名称是"+hostName);
                 }
             } catch (UnknownHostException e) {
                 e.printStackTrace();
