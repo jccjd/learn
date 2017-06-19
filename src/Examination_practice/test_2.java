@@ -3,7 +3,7 @@ package Examination_practice;
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
 
-/** Print console input
+/** Print console inputfdf
  * Created by lenovo on 2017/6/19.
  */
 public class test_2 {

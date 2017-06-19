@@ -41,7 +41,7 @@ public class againIO {
 class Main4{
     public static void main(String[] args) {
         String filepath= "d:1.txt";
-        String word="b";
+        String word="d";
         int count= wordcount.getWordCount(filepath,word);
         System.out.println(count);
     }

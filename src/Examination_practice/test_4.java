@@ -1,6 +1,6 @@
 package Examination_practice;
 
-/**
+/**dsgrg
  * Created by lenovo on 2017/6/19.
  */
 public class test_4 extends Thread {
