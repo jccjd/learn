@@ -12,11 +12,11 @@ import java.net.Socket;
 public class Sever {
     public static void main(String[] args) {
         try {
-            ServerSocket server = new ServerSocket(9527);
+            ServerSocket server = new ServerSocket(90);
             System.out.println("server start");
             Socket socket = server.accept();
             System.out.println("Creating a customer connection");
-            InputStream input =socket.getInputStream();
+            InputStream input = socket.getInputStream();
             InputStreamReader isreader = new InputStreamReader(input);
             BufferedReader reader = new BufferedReader(isreader);
             while (true){
