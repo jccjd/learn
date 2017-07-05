@@ -6,7 +6,7 @@ package Collection;
  */
 public class MyArrayList {
 
-    private  Object[] elementData;
+    private static Object[] elementData;
     private int size;
 
     public int size() {
@@ -18,13 +18,7 @@ public class MyArrayList {
     }
 
     public Object get(int index) {
-        if (index < 0 || index >= size) {
-            try {
-                throw new Exception();
-            } catch (Exception e) {
-                e.printStackTrace();
-            }
-        }
+        rangeCheck(index);
         return elementData[index];
     }
 
@@ -45,58 +39,80 @@ public class MyArrayList {
 
     public void add(Object object) {
         //数组扩容和数据拷贝
-        if (size == elementData.length) {
-
-            Object[] newArray = new Object[size*2 + 1];
-            System.arraycopy(elementData, 0, newArray, 0, elementData.length);
-//            for (int i = 0; i <elementData.length ; i++) {
-//                newArray[i] = elementData[i];
-//            }
-        elementData = newArray;
-        }
+        ensureCapacity();
         elementData[size++] = object;
 //        size++;
     }
 
     public void remove(int index) {
-        if (index < 0 || index >= size) {
-            try {
-                throw new Exception();
-            } catch (Exception e) {
-                e.printStackTrace();
-            }
-        }
+        rangeCheck(index);
         //删除指定位置的对象
          int numMoved = size - index - 1;
          if (numMoved > 0) {
              System.arraycopy(elementData, index + 1, elementData, index, numMoved);
          }
          elementData[--size] = null; //
-
     }
 
-
-
-    private void rangeCheck(int index) {
-        if (index < 0 || index >= size) {
-            try {
-                throw new Exception();
-            } catch (Exception e) {
-                e.printStackTrace();
+    public void remove (Object obj) {
+        for (int i = 0; i < size; i++) {
+            if (get(i).equals(obj)) {   //底层方法调用equals而不是==,equals是比较值相等
+                remove(i);
             }
         }
     }
 
+    public Object set(int index, Object obj) {
+        rangeCheck(index);
+        Object oldValue = elementData[index];
+        elementData[index] = obj;
+        return oldValue;
+    }
+
+    public void add (int index, Object obj) {
+        rangeCheck(index);
+        ensureCapacity();       //数组扩容
+        System.arraycopy(elementData, index, elementData, index + 1, size - index);
+        elementData[index] = obj;
+        size++;
+    }
+
+    private void ensureCapacity () {
+        //数组扩容与拷贝
+        if (size == elementData.length) {
+            Object[] newArray = new Object[size*2 + 1];
+            System.arraycopy(elementData, 0, newArray, 0, elementData.length);
+//            for (int i = 0; i <elementData.length ; i++) {
+//                newArray[i] = elementData[i];
+//            }
+            elementData = newArray;
+        }
+    }
+
+
+    private void rangeCheck(int index) {
+        if (index < 0 || index >= size) {
+            throw new IndexOutOfBoundsException(outOfBoundsMsg(index));
+        }
+    }
+    private String outOfBoundsMsg(int index) {
+        return "Index: "+index+", Size: "+size;
+    }
+
     public static void main(String[] args) {
         MyArrayList list = new MyArrayList(3);
-        list.add("33");
-        list.add("33");
-        list.add("33");
-        list.add("33");
-        list.add("33");
-        list.add("33");
-        list.add("33");
-        System.out.println(""+list.size());
-        System.out.println(""+list.get(5));
+        list.add("1");
+        list.add("2");
+        list.add("3");
+        list.add("4");
+        list.add("5");
+        list.add("6");
+        list.add(0,"7");
+        list.set(2,"aa");
+        list.remove(2);
+        list.remove("3");
+        for (int i = 0; i < list.size; i++) {
+            System.out.println(""+list.get(i));
+        }
     }
 }
