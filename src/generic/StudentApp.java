@@ -12,6 +12,7 @@ public class StudentApp {
         //泛型嵌套
         Bjsxt<Student<String>> bjsxt = new Bjsxt<>();
         bjsxt.setStudent(stu);
+
         stu = bjsxt.getStudent();
         String score = stu.getScore();
         System.out.println(""+score);
