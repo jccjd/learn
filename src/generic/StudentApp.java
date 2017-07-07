@@ -22,7 +22,7 @@ public class StudentApp {
         String score = stu.getScore();
         System.out.println(""+score);
 
-        //HashMap
+        //HashMap遍历方式 使用了泛型的嵌套
         Map<String, String> map = new HashMap<>();
         map.put("h1",new String("dsd"));
         map.put("h2",new String("dsd22"));
@@ -34,7 +34,6 @@ public class StudentApp {
             String value = entry.getValue();
             System.out.println(key+"-->"+value);
         }
-
     }
 
 }
