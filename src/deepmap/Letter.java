@@ -9,6 +9,13 @@ public class Letter {
     private String name;
     private int count;
 
+    public Letter() {
+
+    }
+    public Letter(String name) {
+        this.name = name;
+    }
+
     public Letter(String name, int count) {
         super();
         this.name = name;
