@@ -1,5 +1,10 @@
 package generic;
 
+import java.util.HashMap;
+import java.util.Map;
+import java.util.Set;
+import java.util.Map.Entry;
+
 /**泛型嵌套 --> 由外到内拆分
  * Created by lenovo on 2017/7/6.
  */
@@ -16,6 +21,20 @@ public class StudentApp {
         stu = bjsxt.getStudent();
         String score = stu.getScore();
         System.out.println(""+score);
+
+        //HashMap
+        Map<String, String> map = new HashMap<>();
+        map.put("h1",new String("dsd"));
+        map.put("h2",new String("dsd22"));
+        map.put("h2",new String("dsd请问"));
+
+        Set<Entry<String,String>> entrySet = map.entrySet();
+        for (Entry<String,String> entry:entrySet) {
+            String key = entry.getKey();
+            String value = entry.getValue();
+            System.out.println(key+"-->"+value);
+        }
+
     }
 
 }
