@@ -29,7 +29,6 @@ public class MapDemo2 {
             //第一次查看是否存在袋子
             if (!map.containsKey(key)) {
                 map.put(key,new Letter(key));
-
             }
             Letter value = map.get(key);
             value.setCount(value.getCount()+1);
