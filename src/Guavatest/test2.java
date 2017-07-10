@@ -21,7 +21,7 @@ import java.util.Set;
  *
  * Created by lenovo on 2017/7/10.
  */
-public class text2 {
+public class test2 {
     public static void main(String[] args) {
         //组合式函数编程
         /*确保容器中的字符串长度不超过5,超过进行截取,后全部大写*/
