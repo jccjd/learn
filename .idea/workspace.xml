@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fee7de50-5c15-4729-bd0f-8e6025f4a492" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Guavatest/test1.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Guavatest/text2.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Guavatest/test3.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Guavatest/test4.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/learn.iml" afterPath="$PROJECT_DIR$/learn.iml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -21,41 +20,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="EnumMapDema.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/otherthree/EnumMapDema.java">
+      <file leaf-file-name="test3.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Guavatest/test3.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="141">
-              <caret line="7" column="3" lean-forward="false" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="3" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AbstractDualBidiMap.class" pinned="false" current-in-tab="false">
-        <entry file="jar://C:/Program Files/Java/commons-collections4-4.1.jar!/org/apache/commons/collections4/bidimap/AbstractDualBidiMap.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="156">
-              <caret line="19" column="22" lean-forward="false" selection-start-line="19" selection-start-column="22" selection-end-line="19" selection-end-column="22" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AbstractDualBidiMap.BidiMapIterator.html" pinned="false" current-in-tab="false">
-        <entry file="jar://C:/Program Files/Java/commons-collections4-4.1-javadoc.jar!/org/apache/commons/collections4/bidimap/AbstractDualBidiMap.BidiMapIterator.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="208">
-              <caret line="8" column="6" lean-forward="true" selection-start-line="8" selection-start-column="6" selection-end-line="8" selection-end-column="6" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="test1.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Guavatest/test1.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="427">
-              <caret line="26" column="0" lean-forward="false" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+            <state relative-caret-position="283">
+              <caret line="40" column="0" lean-forward="true" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -63,17 +32,13 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="text2.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/Guavatest/text2.java">
+      <file leaf-file-name="test4.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Guavatest/test4.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="479">
-              <caret line="54" column="25" lean-forward="false" selection-start-line="54" selection-start-column="25" selection-end-line="54" selection-end-column="25" />
+            <state relative-caret-position="364">
+              <caret line="26" column="12" lean-forward="true" selection-start-line="26" selection-start-column="12" selection-end-line="26" selection-end-column="12" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#871#872#0" expanded="true" />
-                <element signature="e#941#942#0" expanded="true" />
-                <element signature="e#1103#1104#0" expanded="true" />
-                <element signature="e#1157#1158#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -117,8 +82,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/Collection/myLinklist.java" />
-        <option value="$PROJECT_DIR$/src/Collection/hashmap01.java" />
         <option value="$PROJECT_DIR$/src/Collection/Testhashandequals.java" />
         <option value="$PROJECT_DIR$/src/Collection/Test01.java" />
         <option value="$PROJECT_DIR$/src/Collection/Linkedlist.java" />
@@ -168,6 +131,8 @@
         <option value="$PROJECT_DIR$/src/otherthree/EnumMapDema.java" />
         <option value="$PROJECT_DIR$/src/Guavatest/test1.java" />
         <option value="$PROJECT_DIR$/src/Guavatest/text2.java" />
+        <option value="$PROJECT_DIR$/src/Guavatest/test3.java" />
+        <option value="$PROJECT_DIR$/src/Guavatest/test4.java" />
       </list>
     </option>
   </component>
@@ -300,47 +265,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.test1">
-    <configuration default="false" name="RefDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="otherthree.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="otherthree.RefDemo" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="learn" />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="false" name="IndentityHashMapDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="otherthree.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="otherthree.IndentityHashMapDemo" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="learn" />
-      <envs />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Application.test4">
     <configuration default="false" name="test2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -389,6 +314,46 @@
         </pattern>
       </extension>
       <option name="MAIN_CLASS_NAME" value="Guavatest.test1" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="learn" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="test3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="Guavatest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="Guavatest.test3" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="learn" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="test4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="Guavatest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="Guavatest.test4" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -606,19 +571,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Application.RefDemo" />
-      <item index="1" class="java.lang.String" itemvalue="Application.IndentityHashMapDemo" />
-      <item index="2" class="java.lang.String" itemvalue="Application.test2" />
-      <item index="3" class="java.lang.String" itemvalue="Application.EnumMapDema" />
-      <item index="4" class="java.lang.String" itemvalue="Application.test1" />
+      <item index="0" class="java.lang.String" itemvalue="Application.test2" />
+      <item index="1" class="java.lang.String" itemvalue="Application.EnumMapDema" />
+      <item index="2" class="java.lang.String" itemvalue="Application.test1" />
+      <item index="3" class="java.lang.String" itemvalue="Application.test3" />
+      <item index="4" class="java.lang.String" itemvalue="Application.test4" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.test1" />
-        <item index="1" class="java.lang.String" itemvalue="Application.EnumMapDema" />
-        <item index="2" class="java.lang.String" itemvalue="Application.test2" />
-        <item index="3" class="java.lang.String" itemvalue="Application.IndentityHashMapDemo" />
-        <item index="4" class="java.lang.String" itemvalue="Application.RefDemo" />
+        <item index="0" class="java.lang.String" itemvalue="Application.test4" />
+        <item index="1" class="java.lang.String" itemvalue="Application.test3" />
+        <item index="2" class="java.lang.String" itemvalue="Application.test1" />
+        <item index="3" class="java.lang.String" itemvalue="Application.EnumMapDema" />
+        <item index="4" class="java.lang.String" itemvalue="Application.test2" />
       </list>
     </recent_temporary>
   </component>
@@ -891,7 +856,14 @@
       <option name="project" value="LOCAL" />
       <updated>1499657233097</updated>
     </task>
-    <option name="localTasksCounter" value="37" />
+    <task id="LOCAL-00037" summary="update">
+      <created>1499670691317</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1499670691317</updated>
+    </task>
+    <option name="localTasksCounter" value="38" />
     <servers />
   </component>
   <component name="TodoView" selected-index="1">
@@ -922,7 +894,8 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15592971" sideWeight="0.49613154" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31259152" sideWeight="0.49613154" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25256976" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Tail" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.14787701" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24962178" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -933,7 +906,6 @@
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2532943" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32963988" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
     </layout>
@@ -969,14 +941,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/Collection1/Simplelist.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="58" column="7" lean-forward="false" selection-start-line="58" selection-start-column="7" selection-end-line="58" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/out/production/learn/generic/InterC3.class" />
     <entry file="file://$PROJECT_DIR$/out/production/learn/generic/InterC1.class" />
     <entry file="file://$PROJECT_DIR$/out/production/learn/generic/Fruit.class" />
     <entry file="file://$PROJECT_DIR$/out/production/learn/generic/Father.class" />
@@ -1240,6 +1204,26 @@
             <element signature="e#941#942#0" expanded="true" />
             <element signature="e#1103#1104#0" expanded="true" />
             <element signature="e#1157#1158#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Guavatest/test3.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="283">
+          <caret line="40" column="0" lean-forward="true" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Guavatest/test4.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="364">
+          <caret line="26" column="12" lean-forward="true" selection-start-line="26" selection-start-column="12" selection-end-line="26" selection-end-column="12" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
