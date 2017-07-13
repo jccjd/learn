@@ -23,7 +23,7 @@ public class CopyFileDemo {
     public static void main(String[] args) throws FileNotFoundException,IOException{
         String src = "e:/xp/test/";
         String dest = "E:/xp/test/4.jpg";
-
+        copyFile(src,dest);
     }
 
     /*文件的拷贝
@@ -40,7 +40,7 @@ public class CopyFileDemo {
         File dest = new File(DestPath);
         if (!src.isFile()) {
             System.out.println("只能拷贝文件");
-            throw new IOException("z只能拷贝文件");
+            throw new IOException("只能拷贝文件");
         }
         //2.选择流
         InputStream is = new FileInputStream(src);
@@ -55,5 +55,8 @@ public class CopyFileDemo {
         }
         os.flush();
         //关闭流
+        FilleUtil.closeAll(os,is);
+
     }
+
 }
