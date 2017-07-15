@@ -9,6 +9,9 @@ package Thread;
 public class Programmer implements Runnable{
     @Override
     public void run() {
-        System.out.println("一边敲代码");
+        for (int i = 0; i < 10; i++) {
+            System.out.println("一边敲代码");
+
+        }
     }
 }
