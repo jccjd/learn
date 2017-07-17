@@ -6,27 +6,28 @@ import java.io.DataOutputStream;
 import java.io.IOException;
 import java.net.ServerSocket;
 import java.net.Socket;
+import java.util.ArrayList;
+import java.util.List;
 
 /**
  * Created by lenovo on 2017/7/17.
  */
 public class Server {
+    private List<Mychannel> all = new ArrayList<>();
     public static void main(String[] args) throws IOException {
+        new Server().start();
+    }
+    public void start() throws IOException {
         ServerSocket server = new ServerSocket(9999);
         while (true) {
             Socket client = server.accept();
-            //写出数据
-            //输入流
-            DataInputStream dis = new DataInputStream(client.getInputStream());
-            DataOutputStream dos = new DataOutputStream(client.getOutputStream());
-            while (true) {
-                String msg = dis.readUTF();
-                //输出流
-                dos.writeUTF("server -->" + msg);
-                dos.flush();
-            }
+            Mychannel channel = new Mychannel(client);
+            all.add(channel);
+            new Thread(channel).start();
         }
+
     }
+
     private class Mychannel implements Runnable {
         private DataInputStream dis;
         private DataOutputStream dos;
@@ -51,6 +52,7 @@ public class Server {
                 e.printStackTrace();
                 closeUtil.closeAll(dis);
                 isRunning = false;
+                all.remove(this);
 
             }
             return msg;
@@ -63,16 +65,31 @@ public class Server {
             }
             try {
                 dos.writeUTF(msg);
+                dos.flush();
             } catch (IOException e) {
                 e.printStackTrace();
                 closeUtil.closeAll(dos);
+                all.remove(this);
                 isRunning = false;
+            }
+        }
+        /*发送给其他客户端*/
+        private void sendOthers() {
+            String msg = this.receive();
+            //遍历容器
+            for (Mychannel other : all) {
+                if (other == this) {
+                    continue;
+                }
+                other.send(msg);
             }
         }
         //
         @Override
         public void run() {
-
+            while (isRunning) {
+                sendOthers();
+            }
         }
     }
 }
