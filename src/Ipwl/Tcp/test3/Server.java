@@ -31,10 +31,13 @@ public class Server {
         private DataInputStream dis;
         private DataOutputStream dos;
         private boolean isRunning = true;
+        private String name;
         public Mychannel(Socket client) {
             try {
                 dis = new DataInputStream(client.getInputStream());
                 dos = new DataOutputStream(client.getOutputStream());
+                this.name = dis.readUTF();
+                sendOthers(this.name+"进入聊天室",true);
             } catch (IOException e) {
                 isRunning = false;
                 closeUtil.closeAll(dis,dos);
@@ -73,21 +76,37 @@ public class Server {
             }
         }
         /*发送给其他客户端*/
-        private void sendOthers() {
-            String msg = this.receive();
-            //遍历容器
-            for (Mychannel other : all) {
-                if (other == this) {
-                    continue;
+        private void sendOthers(String msg, boolean sys) {
+            //是否为私聊
+            if (msg.startsWith("@") && msg.indexOf(":") > -1) {
+                //获取name
+                String name = msg.substring(1, msg.indexOf(":"));
+                String content = msg.substring(msg.indexOf(":" + 1));
+                for (Mychannel other : all) {
+                    if (other.name.equals(name)) {
+                        other.send(this.name + "对你悄悄的说" + content);
+                    }
                 }
-                other.send(msg);
+            } else {
+                //遍历容器
+                for (Mychannel other : all) {
+                    if (other == this) {
+                        continue;
+                    }
+                    if (sys) {
+                        other.send("系统信息" + msg);
+                    } else {
+                        //发送给其他客户
+                        other.send(this.name+"对所以人说"+msg);
+                    }
+                }
             }
         }
         //
         @Override
         public void run() {
             while (isRunning) {
-                sendOthers();
+                sendOthers(receive(),false);
             }
         }
     }
