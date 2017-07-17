@@ -1,9 +1,6 @@
 package Ipwl.Tcp.test1;
 
-import java.io.BufferedReader;
-import java.io.DataInputStream;
-import java.io.DataOutputStream;
-import java.io.IOException;
+import java.io.*;
 import java.net.Socket;
 
 /**发送数据线程
@@ -18,6 +15,7 @@ public class Send implements Runnable{
     private boolean isRuning = true;
 
     public Send() {
+        console = new BufferedReader(new InputStreamReader(System.in));
     }
     public Send(Socket client) {
         this();
@@ -50,11 +48,7 @@ public class Send implements Runnable{
             } catch (IOException e) {
                 e.printStackTrace();
                 isRuning = false;
-                try {
-                    dos.close();
-                } catch (IOException e1) {
-                    e1.printStackTrace();
-                }
+                closeUtil.closeAll(dos);
             }
         }
     }

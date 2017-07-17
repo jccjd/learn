@@ -36,11 +36,7 @@ public class Receive implements Runnable {
         } catch (IOException e) {
             e.printStackTrace();
             isRuning = false;
-            try {
-                dis.close();
-            } catch (IOException e1) {
-                e1.printStackTrace();
-            }
+            closeUtil.closeAll(dis);
         }
         return msg;
     }
