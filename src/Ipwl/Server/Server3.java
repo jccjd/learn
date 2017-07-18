@@ -16,11 +16,13 @@ public class Server3 {
     private static final String BLABK=" ";
 
     public static void main(String[] args) {
-
+        Server3 server = new Server3();
+        server.start();
     }
     public void start() {
         try {
             server = new ServerSocket(8888);
+            this.receive();
         } catch (IOException e) {
             e.printStackTrace();
         }
@@ -43,7 +45,7 @@ public class Server3 {
                     "</head>\n" +
                     "<body>\n" +
                     "<pre> method:请求方式 get/post\n" +
-                    "\t\tget:数据量小 安全性不高 默认方式\n" +
+                    "\t\tget:数据量小 hhhh安全性不高 默认方式\n" +
                     "\n" +
                     "\t\tpost: 量大 安全性高\n" +
                     "\t\taction:请求的服务器路径\n" +
