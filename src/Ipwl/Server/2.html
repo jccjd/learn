@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>test</title>
+</head>
+<body>
+<pre> method:请求方式 get/post
+		get:数据量小 安全性不高 默认方式
+
+		post: 量大 安全性高
+		action:请求的服务器路径
+		id : 前段区分唯一性
+		name: 后端(服务器) 区分唯一性 获取值
+		只要数据提交给后台必须存在name
+	</pre>
+
+<form method="post" action="http://localhost:8888/index.html">
+    用户名:<input type="text" name="unme" id="name">
+    密码:<input type="password" name="pwd" id="pass">
+    <input type="submit" value="登录">
+</form>
+</body>
+</html>

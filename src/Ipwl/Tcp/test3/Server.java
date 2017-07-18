@@ -37,6 +37,7 @@ public class Server {
                 dis = new DataInputStream(client.getInputStream());
                 dos = new DataOutputStream(client.getOutputStream());
                 this.name = dis.readUTF();
+                this.send("欢迎进入聊天室");
                 sendOthers(this.name+"进入聊天室",true);
             } catch (IOException e) {
                 isRunning = false;
@@ -81,10 +82,10 @@ public class Server {
             if (msg.startsWith("@") && msg.indexOf(":") > -1) {
                 //获取name
                 String name = msg.substring(1, msg.indexOf(":"));
-                String content = msg.substring(msg.indexOf(":" + 1));
+                String content = msg.substring(msg.indexOf(":")+1);
                 for (Mychannel other : all) {
                     if (other.name.equals(name)) {
-                        other.send(this.name + "对你悄悄的说" + content);
+                        other.send(this.name + "对你悄悄的说: " + content);
                     }
                 }
             } else {
@@ -94,10 +95,10 @@ public class Server {
                         continue;
                     }
                     if (sys) {
-                        other.send("系统信息" + msg);
+                        other.send("系统信息: " + msg);
                     } else {
-                        //发送给其他客户
-                        other.send(this.name+"对所以人说"+msg);
+                        //发送给其他客户端
+                        other.send(this.name+"对所以人说: "+msg);
                     }
                 }
             }
