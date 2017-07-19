@@ -11,7 +11,7 @@ public class Server {
     private boolean isShutdown = false;
     public static void main(String[] args) {
         Server server = new Server();
-        server.start();
+        server.start(80);
     }
     public void start() {
         //默认端口为8888
