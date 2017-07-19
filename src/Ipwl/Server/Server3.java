@@ -67,7 +67,7 @@ public class Server3 {
             //2.响应头(response head)
             response.append("Server:fdfd Server/2.3.3.35").append(CRLF);
             response.append("Date:").append(new Date()).append(CRLF);
-            response.append("Content-type:text/html;charset=UTF-8").append(CRLF);
+                response.append("Content-type:text/html;charset=UTF-8").append(CRLF);
 
             //正文的长度
             response.append("Content-Length:").append(responseContext.toString().getBytes().length).append(CRLF);
