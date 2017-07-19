@@ -19,14 +19,12 @@ public class Dispatcher implements Runnable {
             if (null == serv) {
                 this.code = 404;
             }
-                serv.service(req, rep);
-                rep.pushTOCLient(code);
-                client.close();
+            serv.service(req, rep);
+            rep.pushTOCLient(code);
             } catch (Exception e) {
                 e.printStackTrace();
                 this.code = 500;
             }
-
     }
     Dispatcher(Socket client) {
         this.client = client;
