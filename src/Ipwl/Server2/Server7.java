@@ -1,11 +1,7 @@
-package Ipwl.Server;
+package Ipwl.Server2;
 
-import java.io.BufferedWriter;
 import java.io.IOException;
-import java.io.OutputStreamWriter;
 import java.net.ServerSocket;
-import java.net.Socket;
-import java.util.Date;
 
 /**
  * Created by lenovo on 2017/7/18.
