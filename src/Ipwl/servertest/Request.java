@@ -1,4 +1,4 @@
-package Ipwl.Server2;
+package Ipwl.servertest;
 
 import java.io.IOException;
 import java.io.InputStream;

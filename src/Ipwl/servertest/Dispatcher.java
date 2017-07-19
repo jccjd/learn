@@ -1,6 +1,4 @@
-package Ipwl.Server2;
-
-import Ipwl.Server.Serverlet;
+package Ipwl.servertest;
 
 import java.io.IOException;
 import java.net.Socket;

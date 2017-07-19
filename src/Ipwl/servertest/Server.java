@@ -1,4 +1,4 @@
-package Ipwl.Server2;
+package Ipwl.servertest;
 
 import java.io.IOException;
 import java.net.ServerSocket;
@@ -6,11 +6,11 @@ import java.net.ServerSocket;
 /**
  * Created by lenovo on 2017/7/18.
  */
-public class Server7 {
+public class Server {
     private ServerSocket server;
     private boolean isShutdown = false;
     public static void main(String[] args) {
-        Server7 server = new Server7();
+        Server server = new Server();
         server.start();
     }
     public void start() {
