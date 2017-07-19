@@ -16,7 +16,7 @@ public class WebApp {
 
         Map<String,Serverlet> serverlet = context.getServerlet();
         serverlet.put("login",new LoginServerlet());
-        serverlet.put("register",new RegisterServerlet());
+        serverlet.put("reglister",new RegisterServerlet());
 
     }
     public static Serverlet getServerlet(String url) {

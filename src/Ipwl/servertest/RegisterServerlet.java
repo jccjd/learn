@@ -13,7 +13,7 @@ public class RegisterServerlet extends Serverlet {
     public void doPost(Request request, Response response) throws Exception {
         response.println("<html><head><title>test</title></head>");
         response.println("<body>");
-        response.println("欢迎:").println(request.getParameter("uname")).println("回来");
+        response.println("你的用户名为:").println(request.getParameter("uname"));
         response.println("</body></html>");
 
     }

@@ -18,13 +18,15 @@ public class Dispatcher implements Runnable {
             Serverlet serv = WebApp.getServerlet(req.getUrl());
             if (null == serv) {
                 this.code = 404;
+            } else {
+                serv.service(req, rep);
             }
-            serv.service(req, rep);
             rep.pushTOCLient(code);
             } catch (Exception e) {
                 e.printStackTrace();
                 this.code = 500;
             }
+            rep.pushTOCLient(500);
     }
     Dispatcher(Socket client) {
         this.client = client;
