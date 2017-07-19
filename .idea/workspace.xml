@@ -2,10 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fee7de50-5c15-4729-bd0f-8e6025f4a492" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Ipwl/servertest/2.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Ipwl/servertest/ServerletContext.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Ipwl/servertest/LoginServerlet.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Ipwl/servertest/RegisterServerlet.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Ipwl/servertest/WebApp.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Ipwl/servertest/Server.java" afterPath="$PROJECT_DIR$/src/Ipwl/servertest/Server.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Ipwl/servertest/Dispatcher.java" afterPath="$PROJECT_DIR$/src/Ipwl/servertest/Dispatcher.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Ipwl/servertest/Serverlet.java" afterPath="$PROJECT_DIR$/src/Ipwl/servertest/Serverlet.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Ipwl/servertest/ServerletContext.java" afterPath="$PROJECT_DIR$/src/Ipwl/servertest/ServerletContext.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -21,51 +24,41 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Server.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Ipwl/servertest/Server.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="104">
-              <caret line="13" column="23" lean-forward="false" selection-start-line="13" selection-start-column="23" selection-end-line="13" selection-end-column="23" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ServerletContext.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/Ipwl/servertest/ServerletContext.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="156">
-              <caret line="6" column="4" lean-forward="false" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="4" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="2.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Ipwl/servertest/2.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="106">
+            <state relative-caret-position="285">
               <caret line="15" column="10" lean-forward="true" selection-start-line="15" selection-start-column="10" selection-end-line="15" selection-end-column="10" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Response.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Ipwl/servertest/Response.java">
+      <file leaf-file-name="Dispatcher.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Ipwl/servertest/Dispatcher.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="104">
-              <caret line="13" column="23" lean-forward="true" selection-start-line="13" selection-start-column="23" selection-end-line="13" selection-end-column="23" />
+            <state relative-caret-position="233">
+              <caret line="20" column="4" lean-forward="true" selection-start-line="20" selection-start-column="4" selection-end-line="20" selection-end-column="4" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Dispatcher.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Ipwl/servertest/Dispatcher.java">
+      <file leaf-file-name="Server.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Ipwl/Server/Server.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="104">
-              <caret line="18" column="31" lean-forward="true" selection-start-line="18" selection-start-column="31" selection-end-line="18" selection-end-column="31" />
+            <state relative-caret-position="222">
+              <caret line="32" column="28" lean-forward="true" selection-start-line="32" selection-start-column="28" selection-end-line="32" selection-end-column="28" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Serverlet.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Ipwl/Server/Serverlet.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="182">
+              <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -74,8 +67,8 @@
       <file leaf-file-name="Serverlet.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Ipwl/servertest/Serverlet.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="156">
-              <caret line="6" column="28" lean-forward="true" selection-start-line="6" selection-start-column="28" selection-end-line="6" selection-end-column="28" />
+            <state relative-caret-position="208">
+              <caret line="8" column="36" lean-forward="false" selection-start-line="8" selection-start-column="36" selection-end-line="8" selection-end-column="36" />
               <folding />
             </state>
           </provider>
@@ -121,11 +114,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/file/byteIO/test1.java" />
-        <option value="$PROJECT_DIR$/src/file/byteIO/test2.java" />
-        <option value="$PROJECT_DIR$/src/file/byteIO/FileUtil.java" />
-        <option value="$PROJECT_DIR$/src/file/byteIO/CopyDir.java" />
-        <option value="$PROJECT_DIR$/src/Thread/StaticProxy.java" />
         <option value="$PROJECT_DIR$/src/Thread/Programmer.java" />
         <option value="$PROJECT_DIR$/src/Thread/ProgrammerApp.java" />
         <option value="$PROJECT_DIR$/src/Ipwl/URL/test1.java" />
@@ -172,6 +160,11 @@
         <option value="$PROJECT_DIR$/src/Ipwl/servertest/Server.java" />
         <option value="$PROJECT_DIR$/src/Ipwl/servertest/2.html" />
         <option value="$PROJECT_DIR$/src/Ipwl/servertest/ServerletContext.java" />
+        <option value="$PROJECT_DIR$/src/Ipwl/servertest/Serverlet.java" />
+        <option value="$PROJECT_DIR$/src/Ipwl/servertest/LoginServerlet.java" />
+        <option value="$PROJECT_DIR$/src/Ipwl/servertest/RegisterServerlet.java" />
+        <option value="$PROJECT_DIR$/src/Ipwl/servertest/WebApp.java" />
+        <option value="$PROJECT_DIR$/src/Ipwl/servertest/Dispatcher.java" />
       </list>
     </option>
   </component>
@@ -291,6 +284,28 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="servertest" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="learn" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="learn" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Ipwl" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Server" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -679,13 +694,6 @@
       <option name="presentableId" value="Default" />
       <updated>1497261411846</updated>
     </task>
-    <task id="LOCAL-00021" summary="update">
-      <created>1499267449505</created>
-      <option name="number" value="00021" />
-      <option name="presentableId" value="LOCAL-00021" />
-      <option name="project" value="LOCAL" />
-      <updated>1499267449505</updated>
-    </task>
     <task id="LOCAL-00022" summary="update">
       <created>1499353893913</created>
       <option name="number" value="00022" />
@@ -1022,7 +1030,14 @@
       <option name="project" value="LOCAL" />
       <updated>1500466533935</updated>
     </task>
-    <option name="localTasksCounter" value="70" />
+    <task id="LOCAL-00070" summary="update">
+      <created>1500467458473</created>
+      <option name="number" value="00070" />
+      <option name="presentableId" value="LOCAL-00070" />
+      <option name="project" value="LOCAL" />
+      <updated>1500467458473</updated>
+    </task>
+    <option name="localTasksCounter" value="71" />
     <servers />
   </component>
   <component name="TodoView" selected-index="1">
@@ -1133,27 +1148,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/Ipwl/URL/test1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="401">
-          <caret line="21" column="46" lean-forward="false" selection-start-line="21" selection-start-column="46" selection-end-line="21" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Thread/StaticProxy.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="42" column="13" lean-forward="false" selection-start-line="42" selection-start-column="13" selection-end-line="42" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Ipwl/Tcp/Client.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="269">
-          <caret line="14" column="47" lean-forward="true" selection-start-line="14" selection-start-column="47" selection-end-line="14" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Ipwl/Tcp/Serve.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="202">
@@ -1467,46 +1461,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Ipwl/Server/Serverlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="364">
-          <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Ipwl/Server/Server.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="196">
-          <caret line="31" column="29" lean-forward="true" selection-start-line="31" selection-start-column="29" selection-end-line="31" selection-end-column="29" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Ipwl/servertest/Dispatcher.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="104">
-          <caret line="18" column="31" lean-forward="true" selection-start-line="18" selection-start-column="31" selection-end-line="18" selection-end-column="31" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Ipwl/servertest/Serverlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="156">
-          <caret line="6" column="28" lean-forward="true" selection-start-line="6" selection-start-column="28" selection-end-line="6" selection-end-column="28" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Ipwl/servertest/2.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="106">
-          <caret line="15" column="10" lean-forward="true" selection-start-line="15" selection-start-column="10" selection-end-line="15" selection-end-column="10" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Ipwl/servertest/Response.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="104">
@@ -1517,16 +1471,90 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Ipwl/servertest/Server.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="104">
-          <caret line="13" column="23" lean-forward="false" selection-start-line="13" selection-start-column="23" selection-end-line="13" selection-end-column="23" />
+        <state relative-caret-position="130">
+          <caret line="14" column="5" lean-forward="true" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Ipwl/servertest/Serverlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="8" column="36" lean-forward="false" selection-start-line="8" selection-start-column="36" selection-end-line="8" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Ipwl/Server/Serverlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="182">
+          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Ipwl/Server/Server.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="222">
+          <caret line="32" column="28" lean-forward="true" selection-start-line="32" selection-start-column="28" selection-end-line="32" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Ipwl/servertest/WebApp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="441">
+          <caret line="25" column="73" lean-forward="false" selection-start-line="25" selection-start-column="73" selection-end-line="25" selection-end-column="73" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Ipwl/servertest/LoginServerlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="494">
+          <caret line="19" column="1" lean-forward="false" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Ipwl/servertest/RegisterServerlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="416">
+          <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Ipwl/servertest/ServerletContext.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="156">
-          <caret line="6" column="4" lean-forward="false" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="4" />
+        <state relative-caret-position="234">
+          <caret line="9" column="1" lean-forward="true" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#391#392#0" expanded="true" />
+            <element signature="e#423#424#0" expanded="true" />
+            <element signature="e#489#490#0" expanded="true" />
+            <element signature="e#531#532#0" expanded="true" />
+            <element signature="e#578#579#0" expanded="true" />
+            <element signature="e#608#609#0" expanded="true" />
+            <element signature="e#667#668#0" expanded="true" />
+            <element signature="e#705#706#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Ipwl/servertest/2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="15" column="10" lean-forward="true" selection-start-line="15" selection-start-column="10" selection-end-line="15" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Ipwl/servertest/Dispatcher.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="233">
+          <caret line="20" column="4" lean-forward="true" selection-start-line="20" selection-start-column="4" selection-end-line="20" selection-end-column="4" />
           <folding />
         </state>
       </provider>

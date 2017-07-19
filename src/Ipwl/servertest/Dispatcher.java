@@ -14,14 +14,19 @@ public class Dispatcher implements Runnable {
 
     @Override
     public void run() {
-        Serverlet serv = new Serverlet();
-        serv.service(req,rep);
-        rep.pushTOCLient(code);
         try {
-            client.close();
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
+            Serverlet serv = WebApp.getServerlet(req.getUrl());
+            if (null == serv) {
+                this.code = 404;
+            }
+                serv.service(req, rep);
+                rep.pushTOCLient(code);
+                client.close();
+            } catch (Exception e) {
+                e.printStackTrace();
+                this.code = 500;
+            }
+
     }
     Dispatcher(Socket client) {
         this.client = client;
