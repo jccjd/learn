@@ -7,12 +7,19 @@ public class LoginServerlet extends Serverlet{
 
     @Override
     public void doGet(Request request, Response response) throws Exception {
-        response.println("<html><head><title>test</title></head>");
-        response.println("<body>");
-        response.println("欢迎:").println(request.getParameter("uname")).println("回来");
-        response.println("</body></html>");
+        String name = request.getParameter("uname");
+        String pwd = request.getParameter("pwd");
+        if (login(name, pwd)) {
+            response.println("登录成功");
+        } else {
+            response.println("登录失败");
+
+        }
     }
 
+    public boolean login(String name, String pwd) {
+        return name.equals("ll") && pwd.equals("123456");
+    }
     @Override
     public void doPost(Request request, Response response) throws Exception {
 
