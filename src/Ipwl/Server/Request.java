@@ -2,6 +2,7 @@ package Ipwl.Server;
 
 import java.io.IOException;
 import java.io.InputStream;
+import java.io.UnsupportedEncodingException;
 import java.util.*;
 
 /**
@@ -91,7 +92,7 @@ public class Request {
                 keyValues[1] = null;
             }
             String key = keyValues[0].trim();
-            String value = null == keyValues[1] ? null : keyValues[1].trim();
+            String value = null == keyValues[1] ? null : decode(keyValues[1].trim(),"utf-8");
             //转换成Map分拣
             if (! parameterMapValues.containsKey(key)) {
                 parameterMapValues.put(key, new ArrayList<>());
@@ -121,6 +122,20 @@ public class Request {
             return null;
         }
         return value[0];
+    }
+
+    /*解决中文的问题*/
+    private String decode(String value, String code) {
+        try {
+            return java.net.URLDecoder.decode(value,code);
+        } catch (UnsupportedEncodingException e) {
+            e.printStackTrace();
+        }
+        return null;
+    }
+
+    public String getUrl() {
+        return url;
     }
 
     public static void main(String[] args) {
