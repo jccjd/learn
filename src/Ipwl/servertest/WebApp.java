@@ -26,7 +26,8 @@ public class WebApp {
             return null;
         }
 //      根据字符串创建(完整路径)对象
-        return null;
 //        return context.getServerlet().get(context.getMapping().get(url));
+        String name = context.getServerlet().get(context.getMapping().get(url));
+        return (Serverlet) class.forName
     }
 }
