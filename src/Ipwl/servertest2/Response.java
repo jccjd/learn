@@ -1,4 +1,4 @@
-package Ipwl.servertest;
+package Ipwl.servertest2;
 
 import java.io.BufferedWriter;
 import java.io.IOException;
@@ -8,7 +8,7 @@ import java.net.Socket;
 import java.util.Date;
 
 /**
- * 封装响应信息gg
+ * 封装响应信息
  * Created by lenovo on 2017/7/18.
  */
 public class Response {
