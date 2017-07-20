@@ -14,15 +14,19 @@ public class WebApp {
         mapping.put("/log","login");
         mapping.put("/reg","reglister");
 
-        Map<String,String> serverlet = context.getServerlet();
-        serverlet.put("login","package Ipwl.servertest.LoginServerlet");
-        serverlet.put("reglister","package Ipwl.servertest.RegisterServerlet");
+
+        Map<String, String> servlet =context.getServerlet();
+        servlet.put("reglister", "package Ipwl.servertest.LoginServerlet");
+        servlet.put("reglister","package Ipwl.servertest.RegisterServerlet");
+
 
     }
     public static Serverlet getServerlet(String url) {
         if (url == null || (url=url.trim()).equals("")){
             return null;
         }
-        return context.getServerlet().get(context.getMapping().get(url));
+//      根据字符串创建(完整路径)对象
+        return null;
+//        return context.getServerlet().get(context.getMapping().get(url));
     }
 }
