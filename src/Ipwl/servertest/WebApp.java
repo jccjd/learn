@@ -16,18 +16,18 @@ public class WebApp {
 
 
         Map<String, String> servlet =context.getServerlet();
-        servlet.put("reglister", "package Ipwl.servertest.LoginServerlet");
-        servlet.put("reglister","package Ipwl.servertest.RegisterServerlet");
+        servlet.put("login", "Ipwl.servertest.LoginServerlet");
+        servlet.put("reglister","Ipwl.servertest.RegisterServerlet");
 
 
     }
-    public static Serverlet getServerlet(String url) {
+    public static Serverlet getServerlet(String url) throws ClassNotFoundException, IllegalAccessException, InstantiationException {
         if (url == null || (url=url.trim()).equals("")){
             return null;
         }
 //      根据字符串创建(完整路径)对象
 //        return context.getServerlet().get(context.getMapping().get(url));
         String name = context.getServerlet().get(context.getMapping().get(url));
-        return (Serverlet) class.forName
+        return (Serverlet) Class.forName(name).newInstance();
     }
 }

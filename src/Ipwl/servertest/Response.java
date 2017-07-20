@@ -92,7 +92,6 @@ public class Response {
             bw.append(headInfo.toString());
             bw.append(content.toString());
             bw.flush();
-            bw.close();
         } catch (IOException e) {
             e.printStackTrace();
         }
