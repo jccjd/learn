@@ -14,9 +14,9 @@ public class WebApp {
         mapping.put("/log","login");
         mapping.put("/reg","reglister");
 
-        Map<String,Serverlet> serverlet = context.getServerlet();
-        serverlet.put("login",new LoginServerlet());
-        serverlet.put("reglister",new RegisterServerlet());
+        Map<String,String> serverlet = context.getServerlet();
+        serverlet.put("login","package Ipwl.servertest.LoginServerlet");
+        serverlet.put("reglister","package Ipwl.servertest.RegisterServerlet");
 
     }
     public static Serverlet getServerlet(String url) {
