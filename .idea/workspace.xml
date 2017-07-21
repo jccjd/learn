@@ -5,10 +5,6 @@
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Ipwl/ServerFinal/2.html" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Ipwl/ServerFinal/Dispatcher.java" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Ipwl/ServerFinal/Request.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Ipwl/ServerFinal/Response.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Ipwl/ServerFinal/Server.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Ipwl/Servertest4/2.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Ipwl/Servertest4/Dispatcher.java" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Ipwl/Servertest4/LoginServerlet.java" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Ipwl/Servertest4/RegisterServerlet.java" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Ipwl/Servertest4/Request.java" />
@@ -16,9 +12,8 @@
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Ipwl/Servertest4/Server.java" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Ipwl/Servertest4/Serverlet.java" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Ipwl/Servertest4/ServerletContext.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Ipwl/Servertest4/WebApp.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Ipwl/Servertest4/web.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Ipwl/Servertest4/web.xml" afterPath="$PROJECT_DIR$/src/Ipwl/Servertest4/web.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -33,16 +28,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Response.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Ipwl/Servertest4/Response.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="WebApp.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Ipwl/Servertest4/WebApp.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -123,11 +108,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="2.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="2.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Ipwl/Servertest4/2.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="416">
+              <caret line="16" column="0" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="web.xml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Ipwl/Servertest4/web.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="442">
+              <caret line="17" column="24" lean-forward="false" selection-start-line="17" selection-start-column="24" selection-end-line="17" selection-end-column="24" />
               <folding />
             </state>
           </provider>
@@ -173,7 +168,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/Ipwl/Tcp/MultiServer.java" />
         <option value="$PROJECT_DIR$/src/Ipwl/Tcp/test1/Client.java" />
         <option value="$PROJECT_DIR$/src/Ipwl/Tcp/test1/Server.java" />
         <option value="$PROJECT_DIR$/src/Ipwl/Tcp/test1/ClientTHread.java" />
@@ -224,6 +218,7 @@
         <option value="$PROJECT_DIR$/src/Ipwl/xml/ParseDemo01.java" />
         <option value="$PROJECT_DIR$/src/Ipwl/xml/PersonHander.java" />
         <option value="$PROJECT_DIR$/src/Ipwl/xml/person.xml" />
+        <option value="$PROJECT_DIR$/src/Ipwl/Servertest4/web.xml" />
       </list>
     </option>
   </component>
@@ -294,6 +289,13 @@
               <item name="learn" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="Ipwl" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="learn" type="b2602c69:ProjectViewProjectNode" />
+              <item name="learn" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Ipwl" type="462c0819:PsiDirectoryNode" />
+              <item name="Servertest4" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -676,13 +678,6 @@
       <option name="presentableId" value="Default" />
       <updated>1497261411846</updated>
     </task>
-    <task id="LOCAL-00032" summary="update">
-      <created>1499520901711</created>
-      <option name="number" value="00032" />
-      <option name="presentableId" value="LOCAL-00032" />
-      <option name="project" value="LOCAL" />
-      <updated>1499520901711</updated>
-    </task>
     <task id="LOCAL-00033" summary="update">
       <created>1499593168920</created>
       <option name="number" value="00033" />
@@ -1019,7 +1014,14 @@
       <option name="project" value="LOCAL" />
       <updated>1500610300706</updated>
     </task>
-    <option name="localTasksCounter" value="81" />
+    <task id="LOCAL-00081" summary="update">
+      <created>1500618251335</created>
+      <option name="number" value="00081" />
+      <option name="presentableId" value="LOCAL-00081" />
+      <option name="project" value="LOCAL" />
+      <updated>1500618251336</updated>
+    </task>
+    <option name="localTasksCounter" value="82" />
     <servers />
   </component>
   <component name="TodoView" selected-index="1">
@@ -1033,6 +1035,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="784" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32816902" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -1045,7 +1048,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15812592" sideWeight="0.49613154" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15812592" sideWeight="0.49613154" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.14771049" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24962178" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -1098,13 +1101,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/Ipwl/servertest/ServerletContext.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="494">
-          <caret line="21" column="47" lean-forward="false" selection-start-line="21" selection-start-column="47" selection-end-line="21" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Ipwl/servertest/LoginServerlet.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="130">
@@ -1467,8 +1463,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Ipwl/Servertest4/2.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="416">
+          <caret line="16" column="0" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Ipwl/Servertest4/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="17" column="24" lean-forward="false" selection-start-line="17" selection-start-column="24" selection-end-line="17" selection-end-column="24" />
           <folding />
         </state>
       </provider>
