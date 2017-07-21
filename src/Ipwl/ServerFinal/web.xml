@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<serverlet>
+    <name>login</name>
+    <serverlet-name>Ipwl.servertest3.LoginServerlet</serverlet-name>
+</serverlet>
+<root></root>
+<mapping>
+    <name>login</name>
+    <url-pattern>/login</url-pattern>
+</mapping>
+<mapping>
+    <name>login</name>
+    <url-pattern>/log</url-pattern>
+</mapping>
+
+<serverlet>
+<name>reg</name>
+<serverlet-name>Ipwl.servertest3.RegisterServerlet</serverlet-name>
+</serverlet>
+<mapping>
+<name>reg</name>
+<url-pattern>/reg</url-pattern>
+</mapping>
