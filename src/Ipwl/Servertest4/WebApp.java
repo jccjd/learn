@@ -1,5 +1,10 @@
 package Ipwl.Servertest4;
 
+import org.xml.sax.SAXException;
+
+import javax.xml.parsers.ParserConfigurationException;
+import javax.xml.parsers.SAXParser;
+import javax.xml.parsers.SAXParserFactory;
 import java.util.Map;
 
 /**
@@ -8,15 +13,19 @@ import java.util.Map;
 public class WebApp {
     private static ServerletContext context;
     static {
-        context = new ServerletContext();
-        Map<String,String> mapping = context.getMapping();
-        mapping.put("/login","login");
-        mapping.put("/log","login");
-        mapping.put("/reg","reglister");
-
-        Map<String,Serverlet> serverlet = context.getServerlet();
-        serverlet.put("login",new LoginServerlet());
-        serverlet.put("reglister",new RegisterServerlet());
+        try {
+            //获取解析工厂
+            SAXParserFactory factory = SAXParserFactory.newInstance();
+            //获取解析器
+            SAXParser sax = factory.newSAXParser();
+            //指定xml解析器
+            WebHandler
+        } catch (ParserConfigurationException e) {
+            e.printStackTrace();
+        } catch (SAXException e) {
+            e.printStackTrace();
+        }
+        //
 
     }
     public static Serverlet getServerlet(String url) {
