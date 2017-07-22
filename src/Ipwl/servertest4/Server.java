@@ -1,4 +1,4 @@
-package Ipwl.Servertest4;
+package Ipwl.servertest4;
 
 import java.io.IOException;
 import java.net.ServerSocket;
