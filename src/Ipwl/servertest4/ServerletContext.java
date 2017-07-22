@@ -7,7 +7,7 @@ import java.util.Map;
  * Created by lenovo on 2017/7/19.
  */
 public class ServerletContext {
-    private Map<String, Serverlet> serverlet;
+    private Map<String, String> serverlet;
     private Map<String, String> mapping;
 
     ServerletContext() {
@@ -15,11 +15,11 @@ public class ServerletContext {
         mapping = new HashMap<>();
     }
 
-    public Map<String, Serverlet> getServerlet() {
+    public Map<String, String> getServerlet() {
         return serverlet;
     }
 
-    public void setServerlet(Map<String, Serverlet> serverlet) {
+    public void setServerlet(Map<String, String> serverlet) {
         this.serverlet = serverlet;
     }
 
