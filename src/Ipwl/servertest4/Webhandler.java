@@ -93,7 +93,7 @@ public class Webhandler extends DefaultHandler {
         //指定xml+处理器
         Webhandler web = new Webhandler();
         sax.parse(Thread.currentThread().getContextClassLoader()
-                .getResourceAsStream("Ipwl/xml/person.xml"),web);
+                .getResourceAsStream("Ipwl/servertest4/web.xml"),web);
 
     }
 
