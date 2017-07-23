@@ -15,9 +15,11 @@ public class LoginServerlet extends Serverlet{
             response.println("登录失败");
 
         }
+
     }
 
     public boolean login(String name, String pwd) {
+
         return name.equals("ll") && pwd.equals("123456");
     }
     @Override

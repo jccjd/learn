@@ -138,7 +138,4 @@ public class Request {
         return url;
     }
 
-    public static void main(String[] args) {
-
-    }
 }

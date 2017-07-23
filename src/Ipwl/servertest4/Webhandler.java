@@ -69,7 +69,7 @@ public class Webhandler extends DefaultHandler {
     @Override
     public void endElement(String uri, String localName, String qName) throws SAXException {
         //结束元素
-        if (null !=qName) {
+        if (null != qName) {
             if (qName.equals("serverlet")) {
                 entityList.add(entity);
             } else if (qName.equals("serverlet-mapping")) {
@@ -92,7 +92,7 @@ public class Webhandler extends DefaultHandler {
         SAXParser sax = factory.newSAXParser();
         //指定xml+处理器
         Webhandler web = new Webhandler();
-            sax.parse(Thread.currentThread().getContextClassLoader()
+        sax.parse(Thread.currentThread().getContextClassLoader()
                 .getResourceAsStream("Ipwl/xml/person.xml"),web);
 
     }
