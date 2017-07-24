@@ -49,7 +49,7 @@ public class WebApp {
 //      根据字符串创建(完整路径)对象
 //        return context.getServerlet().get(context.getMapping().get(url));
         String name = context.getServerlet().get(context.getMapping().get(url));
-
+        return (Serverlet) Class.forName(name).newInstance();
     }
 }
 
