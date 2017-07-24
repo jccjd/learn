@@ -94,7 +94,7 @@ public class Webhandler extends DefaultHandler {
         Webhandler web = new Webhandler();
         sax.parse(Thread.currentThread().getContextClassLoader()
                 .getResourceAsStream("Ipwl/servertest4/web.xml"),web);
-
+        System.out.println(web.getEntityList());
     }
 
     public List<Entity> getEntityList() {
