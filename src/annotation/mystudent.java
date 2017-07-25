@@ -4,11 +4,11 @@ package annotation;
 @myTable("tb_student")
 public class mystudent {
     @myField(columnName = "id", type = "int", length = 10)
-     int id;
+    private int id;
     @myField(columnName = "sname", type = "varchar", length = 10)
-     String name;
+    private String name;
     @myField(columnName = "age", type = "int", length = 3)
-     int age;
+    private int age;
 
     public int getId() {
         return id;
