@@ -3,10 +3,12 @@ package annotation;
 
 @myTable("tb_student")
 public class mystudent {
-    private int id;
+    @myField(columnName = "id", type = "int", length = 10)
+     int id;
+    @myField(columnName = "sname", type = "varchar", length = 10)
      String name;
+    @myField(columnName = "age", type = "int", length = 3)
      int age;
-
 
     public int getId() {
         return id;
