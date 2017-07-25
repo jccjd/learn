@@ -1,6 +1,5 @@
 package annotation;
 
-import com.sun.xml.internal.ws.api.streaming.XMLStreamWriterFactory;
 
 import java.lang.annotation.ElementType;
 import java.lang.annotation.Retention;
@@ -20,4 +19,5 @@ public @interface myannotation01 {
     String studentName() default "";
     int age() default 0;
     int id() default -1;
+    String[] schools() default {""};
 }
