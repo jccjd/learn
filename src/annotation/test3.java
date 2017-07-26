@@ -12,6 +12,7 @@ public class test3 {
         try {
             Class cls = Class.forName("annotation.mystudent");
             Annotation[] annotations = cls.getAnnotations();
+
             for (Annotation a: annotations
                  ) {
                 System.out.println(a);
