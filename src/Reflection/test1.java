@@ -17,6 +17,17 @@ public class test1 {
             Class cls2 = Class.forName(path);//一个类只对应一个反射对象
             System.out.println(cls2.hashCode());
 
+            Class strcls = String.class;
+            Class strcls2 = path.getClass();
+            System.out.println(strcls == strcls2);
+
+            Class intcls = int.class;
+
+            int[] arr = new int[10];
+            int[][] arr2 = new int[10][10];
+            int[] arr3 = new int[30];
+
+
         } catch (ClassNotFoundException e) {
             e.printStackTrace();
         }
