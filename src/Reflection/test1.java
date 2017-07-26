@@ -2,7 +2,7 @@ package Reflection;
 
 
 /**
- *测试 Java.lang.Class对象的获取方式
+ *测试各种类型(class,interface,enum,annotation,primitive type,void) Java.lang.Class对象的获取方式
  */
 @SuppressWarnings("all")
 public class test1 {
@@ -26,6 +26,10 @@ public class test1 {
             int[] arr = new int[10];
             int[][] arr2 = new int[10][10];
             int[] arr3 = new int[30];
+
+            System.out.println(arr.getClass().hashCode());
+            System.out.println(arr2.getClass().hashCode());
+            System.out.println(arr3.getClass().hashCode());
 
 
         } catch (ClassNotFoundException e) {
