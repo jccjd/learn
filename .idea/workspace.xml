@@ -2,9 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fee7de50-5c15-4729-bd0f-8e6025f4a492" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/DynamicComplie/te.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/DynamicComplie/test1.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/DynamicComplie.java" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -653,13 +650,6 @@
       <option name="presentableId" value="Default" />
       <updated>1497261411846</updated>
     </task>
-    <task id="LOCAL-00063" summary="update">
-      <created>1500436474666</created>
-      <option name="number" value="00063" />
-      <option name="presentableId" value="LOCAL-00063" />
-      <option name="project" value="LOCAL" />
-      <updated>1500436474666</updated>
-    </task>
     <task id="LOCAL-00064" summary="update">
       <created>1500458054584</created>
       <option name="number" value="00064" />
@@ -996,7 +986,14 @@
       <option name="project" value="LOCAL" />
       <updated>1501316516978</updated>
     </task>
-    <option name="localTasksCounter" value="112" />
+    <task id="LOCAL-00112" summary="update">
+      <created>1501317525842</created>
+      <option name="number" value="00112" />
+      <option name="presentableId" value="LOCAL-00112" />
+      <option name="project" value="LOCAL" />
+      <updated>1501317525843</updated>
+    </task>
+    <option name="localTasksCounter" value="113" />
     <servers />
   </component>
   <component name="TodoView" selected-index="1">
