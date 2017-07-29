@@ -19,17 +19,22 @@ public class test3 {
             Constructor<User> c = cls.getDeclaredConstructor(String.class, int.class, int.class);
             User user1 = c.newInstance("ff",22,22);
             System.out.println(user1.getUname());
+
             //通过反射API调用方法
             User user2 = cls.newInstance();
             Method method = cls.getDeclaredMethod("setUname", String.class);
             method.invoke(user2,"李龙");
             System.out.println(user2.getUname());
+
             //通过API操作属性
             User user3 = cls.newInstance();
             Field field = cls.getDeclaredField("uname");
-            field.setAccessible(true);
-            field.set(user3,"李龙3");
+            field.setAccessible(true);//这个属性不需要做安全检查,可以直接访问
             System.out.println(user3.getUname());
+            //通过反射直接读写属性
+            field.set(user3,"李龙3");
+            System.out.println(field.get(user3));
+
         } catch (Exception e) {
             e.printStackTrace();
         }
