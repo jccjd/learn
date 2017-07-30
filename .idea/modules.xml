@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/learn.iml" filepath="$PROJECT_DIR$/learn.iml" />
+      <module fileurl="file://$PROJECT_DIR$/测试脚本引擎Rhino/测试脚本引擎Rhino.iml" filepath="$PROJECT_DIR$/测试脚本引擎Rhino/测试脚本引擎Rhino.iml" />
     </modules>
   </component>
 </project>
