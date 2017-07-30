@@ -28,6 +28,8 @@ public class test1 {
         /*执行脚本中定义的方法*/
         Object result1 = jsinvoke.invokeFunction("add", new Object[]{12,20});
         System.out.println(result1);
+        /*导入其它Java包,使用其它包中的类*/
+        String jscode =""
 
     }
 }
