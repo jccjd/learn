@@ -7,14 +7,21 @@ public class test1 {
 //        new A();
 //        System.out.println(A.width);
 //        new A();//只初始化一次
-        Class.forName("test1.A");
+//        Class.forName("A");
 
 
 //        System.out.println(A.width);//类的主动引用(一定会发生类的初始化)
+        /*类的被动引用不会初始化*/
 //        System.out.println(A.Max);//类的被动引用(不会发生类的初始化/在编译阶段已存入常量池中了)
-
+//        A[] as = new A[10];
+//        System.out.println(B.width);
     }
 
+}
+class B extends A {
+    static {
+        System.out.println("静态初始化B");
+    }
 }
 class A extends A_Father{
     public static final int Max = 100;
