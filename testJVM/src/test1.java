@@ -7,7 +7,7 @@ public class test1 {
 }
 class A {
 
-    public static int width = 100;
+    public static int width = 100;//静态变量/静态域
     static {
         System.out.println("静态初始化类A");
         width = 300;
