@@ -4,6 +4,10 @@ public class test2 {
         System.out.println(ClassLoader.getSystemClassLoader().getParent());
         System.out.println(ClassLoader.getSystemClassLoader().getParent().getParent());
         System.out.println(System.getProperty("java.class.path"));
+        System.out.println("***************");
 
+        String a = "hhhhhhhh";
+        System.out.println(a.getClass().getClassLoader());
+        System.out.println(a);
     }
 }
