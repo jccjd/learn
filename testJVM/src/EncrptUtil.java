@@ -6,9 +6,9 @@ import java.io.*;
 public class EncrptUtil {
 
 
-    public static void main(String[] args) throws IOException {
-        encrpt("E:/dc/te.class","E:/dc/new/te.class");
-    }
+//    public static void main(String[] args) throws IOException {
+//        encrpt("E:/dc/te.class","E:/dc/new/te.class");
+//    }
 
     public static void encrpt(String src, String dest) throws IOException {
         FileInputStream fis = null;
