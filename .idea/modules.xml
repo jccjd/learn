@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/GOF23/GOF23.iml" filepath="$PROJECT_DIR$/GOF23/GOF23.iml" />
       <module fileurl="file://$PROJECT_DIR$/Testjavassist/Testjavassist.iml" filepath="$PROJECT_DIR$/Testjavassist/Testjavassist.iml" />
       <module fileurl="file://$PROJECT_DIR$/innerClass/innerClass.iml" filepath="$PROJECT_DIR$/innerClass/innerClass.iml" />
       <module fileurl="file://$PROJECT_DIR$/java.lang/java.lang.iml" filepath="$PROJECT_DIR$/java.lang/java.lang.iml" />

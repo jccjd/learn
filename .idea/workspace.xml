@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fee7de50-5c15-4729-bd0f-8e6025f4a492" name="Default" comment="updata">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/innerClass/src/test2.java" />
+    <list default="true" id="fee7de50-5c15-4729-bd0f-8e6025f4a492" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GOF23/GOF23.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GOF23/src/singleton/test1.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -64,21 +66,31 @@
         <entry file="file://$PROJECT_DIR$/innerClass/src/test1.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="282">
-              <caret line="11" column="20" lean-forward="true" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="20" />
+              <caret line="11" column="20" lean-forward="false" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="20" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="test2.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="test2.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/innerClass/src/test2.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="416">
-              <caret line="16" column="5" lean-forward="true" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
+            <state relative-caret-position="286">
+              <caret line="11" column="18" lean-forward="false" selection-start-line="11" selection-start-column="18" selection-end-line="11" selection-end-column="18" />
               <folding>
                 <element signature="e#204#205#0" expanded="true" />
                 <element signature="e#249#250#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="test1.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/GOF23/src/singleton/test1.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="130">
+              <caret line="5" column="8" lean-forward="false" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="8" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -162,7 +174,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/Ipwl/servertest4/Request.java" />
         <option value="$PROJECT_DIR$/src/Ipwl/servertest4/WebApp.java" />
         <option value="$PROJECT_DIR$/src/Ipwl/servertest4/Webhandler.java" />
         <option value="$PROJECT_DIR$/src/Ipwl/servertest4/Dispatcher.java" />
@@ -213,6 +224,7 @@
         <option value="$PROJECT_DIR$/testJVM/src/DecrptClassLoder.java" />
         <option value="$PROJECT_DIR$/innerClass/src/test1.java" />
         <option value="$PROJECT_DIR$/innerClass/src/test2.java" />
+        <option value="$PROJECT_DIR$/GOF23/src/singleton/test1.java" />
       </list>
     </option>
   </component>
@@ -276,18 +288,13 @@
             <path>
               <item name="learn" type="b2602c69:ProjectViewProjectNode" />
               <item name="learn" type="462c0819:PsiDirectoryNode" />
-              <item name="innerClass" type="462c0819:PsiDirectoryNode" />
+              <item name="GOF23" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="learn" type="b2602c69:ProjectViewProjectNode" />
               <item name="learn" type="462c0819:PsiDirectoryNode" />
-              <item name="innerClass" type="462c0819:PsiDirectoryNode" />
+              <item name="GOF23" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="learn" type="b2602c69:ProjectViewProjectNode" />
-              <item name="learn" type="462c0819:PsiDirectoryNode" />
-              <item name="java.lang" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -644,13 +651,6 @@
       <option name="presentableId" value="Default" />
       <updated>1497261411846</updated>
     </task>
-    <task id="LOCAL-00087" summary="update">
-      <created>1500716180178</created>
-      <option name="number" value="00087" />
-      <option name="presentableId" value="LOCAL-00087" />
-      <option name="project" value="LOCAL" />
-      <updated>1500716180178</updated>
-    </task>
     <task id="LOCAL-00088" summary="update">
       <created>1500719345262</created>
       <option name="number" value="00088" />
@@ -987,7 +987,14 @@
       <option name="project" value="LOCAL" />
       <updated>1502879235720</updated>
     </task>
-    <option name="localTasksCounter" value="136" />
+    <task id="LOCAL-00136" summary="updata">
+      <created>1502880144743</created>
+      <option name="number" value="00136" />
+      <option name="presentableId" value="LOCAL-00136" />
+      <option name="project" value="LOCAL" />
+      <updated>1502880144743</updated>
+    </task>
+    <option name="localTasksCounter" value="137" />
     <servers />
   </component>
   <component name="TodoView" selected-index="1">
@@ -1287,19 +1294,27 @@
     <entry file="file://$PROJECT_DIR$/innerClass/src/test1.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="282">
-          <caret line="11" column="20" lean-forward="true" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="20" />
+          <caret line="11" column="20" lean-forward="false" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="20" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/innerClass/src/test2.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="416">
-          <caret line="16" column="5" lean-forward="true" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
+        <state relative-caret-position="286">
+          <caret line="11" column="18" lean-forward="false" selection-start-line="11" selection-start-column="18" selection-end-line="11" selection-end-column="18" />
           <folding>
             <element signature="e#204#205#0" expanded="true" />
             <element signature="e#249#250#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GOF23/src/singleton/test1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="130">
+          <caret line="5" column="8" lean-forward="false" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="8" />
+          <folding />
         </state>
       </provider>
     </entry>
