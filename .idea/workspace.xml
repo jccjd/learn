@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fee7de50-5c15-4729-bd0f-8e6025f4a492" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GOF23/GOF23.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GOF23/src/singleton/test1.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GOF23/src/singleton/test2.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GOF23/src/singleton/test1.java" afterPath="$PROJECT_DIR$/GOF23/src/singleton/test1.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -20,16 +19,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="FileSystemClassLoader.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/testJVM/src/FileSystemClassLoader.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1716">
-              <caret line="68" column="5" lean-forward="false" selection-start-line="6" selection-start-column="3" selection-end-line="68" selection-end-column="5" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="test3.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/testJVM/src/test3.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -85,11 +74,24 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="test1.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="test1.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/GOF23/src/singleton/test1.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="130">
-              <caret line="5" column="8" lean-forward="false" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="8" />
+            <state relative-caret-position="364">
+              <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+              <folding>
+                <element signature="e#238#239#0" expanded="true" />
+                <element signature="e#269#270#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="test2.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/GOF23/src/singleton/test2.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="390">
+              <caret line="15" column="24" lean-forward="true" selection-start-line="15" selection-start-column="24" selection-end-line="15" selection-end-column="24" />
               <folding />
             </state>
           </provider>
@@ -174,7 +176,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/Ipwl/servertest4/WebApp.java" />
         <option value="$PROJECT_DIR$/src/Ipwl/servertest4/Webhandler.java" />
         <option value="$PROJECT_DIR$/src/Ipwl/servertest4/Dispatcher.java" />
         <option value="$PROJECT_DIR$/src/Ipwl/serverend/server/Entity.java" />
@@ -225,6 +226,7 @@
         <option value="$PROJECT_DIR$/innerClass/src/test1.java" />
         <option value="$PROJECT_DIR$/innerClass/src/test2.java" />
         <option value="$PROJECT_DIR$/GOF23/src/singleton/test1.java" />
+        <option value="$PROJECT_DIR$/GOF23/src/singleton/test2.java" />
       </list>
     </option>
   </component>
@@ -296,6 +298,13 @@
               <item name="GOF23" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="learn" type="b2602c69:ProjectViewProjectNode" />
+              <item name="learn" type="462c0819:PsiDirectoryNode" />
+              <item name="GOF23" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="singleton" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -319,8 +328,9 @@
     <property name="two.files.diff.last.used.folder" value="$PROJECT_DIR$/src/Ipwl/Server2" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\lenovo\Desktop\code\rejava\learn\src\Ipwl\Server" />
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="otherthree" />
+      <recent name="generic" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\lenovo\Desktop\code\rejava\learn\Testjavassist\src" />
@@ -330,11 +340,11 @@
       <recent name="C:\Users\lenovo\Desktop\code\rejava\learn\src\Ipwl\ServerFinal" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="singleton" />
       <recent name="Ipwl.Server2" />
     </key>
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="otherthree" />
-      <recent name="generic" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\lenovo\Desktop\code\rejava\learn\src\Ipwl\Server" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -650,13 +660,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1497261411846</updated>
-    </task>
-    <task id="LOCAL-00088" summary="update">
-      <created>1500719345262</created>
-      <option name="number" value="00088" />
-      <option name="presentableId" value="LOCAL-00088" />
-      <option name="project" value="LOCAL" />
-      <updated>1500719345262</updated>
     </task>
     <task id="LOCAL-00089" summary="update">
       <created>1500720130399</created>
@@ -994,7 +997,14 @@
       <option name="project" value="LOCAL" />
       <updated>1502880144743</updated>
     </task>
-    <option name="localTasksCounter" value="137" />
+    <task id="LOCAL-00137" summary="updata">
+      <created>1502884068345</created>
+      <option name="number" value="00137" />
+      <option name="presentableId" value="LOCAL-00137" />
+      <option name="project" value="LOCAL" />
+      <updated>1502884068345</updated>
+    </task>
+    <option name="localTasksCounter" value="138" />
     <servers />
   </component>
   <component name="TodoView" selected-index="1">
@@ -1312,8 +1322,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/GOF23/src/singleton/test1.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="130">
-          <caret line="5" column="8" lean-forward="false" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="8" />
+        <state relative-caret-position="364">
+          <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+          <folding>
+            <element signature="e#238#239#0" expanded="true" />
+            <element signature="e#269#270#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GOF23/src/singleton/test2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="15" column="24" lean-forward="true" selection-start-line="15" selection-start-column="24" selection-end-line="15" selection-end-column="24" />
           <folding />
         </state>
       </provider>
