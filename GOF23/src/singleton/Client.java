@@ -6,6 +6,7 @@ public class Client {
         test1 s2 = test1.getInstance();
         System.out.println(s1);
         System.out.println(s2);
+        System.out.println(test5.INSTANCE == test5.INSTANCE);
     }
 
 }

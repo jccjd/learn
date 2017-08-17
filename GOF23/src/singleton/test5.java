@@ -1,6 +1,6 @@
 package singleton;
 /**
- * 测试饿汉式单例模式
+ * 可以防反射和反序列化
  * */
 public enum test5 {
 
