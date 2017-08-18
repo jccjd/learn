@@ -28,7 +28,7 @@ public class test4 implements Serializable{
         return instance;
     }
     /*防反序列化*/
-    private Object readResovle() throws ObjectStreamException {
+    private Object readResolve() throws ObjectStreamException {
         return instance;
     }
 

@@ -20,9 +20,9 @@ public class Client2 {
 
 
         /*通过反射的方式直接调用私有构造器*/
-        Class<test4> cls = (Class<test4>) Class.forName("singleton.test4");
+/*        Class<test4> cls = (Class<test4>) Class.forName("singleton.test4");
         Constructor<test4> c = cls.getDeclaredConstructor(null);
-        c.setAccessible(true);
+        c.setAccessible(true);*/
 //        test4 s3 = c.newInstance();
 //        test4 s4 = c.newInstance();
 //
