@@ -1,4 +1,4 @@
-package factory;
+package factory.simplefactory;
 /**
  * 测试在没有工厂模式的情况
  * */

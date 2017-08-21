@@ -1,6 +1,7 @@
-package factory;
+package factory.simplefactory;
 /**
- *
+ *简单工厂类
+ * @author 李龙
  * */
 public class CarFactory {
     public static Car createCar(String type) {
