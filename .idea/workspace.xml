@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fee7de50-5c15-4729-bd0f-8e6025f4a492" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GOF23/src/factory/abstractFcatory/Engine.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GOF23/src/factory/abstractFcatory/Seat.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GOF23/src/factory/abstractFcatory/Tyre.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -19,16 +18,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="test2.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/GOF23/src/factory/simplefactory/test2.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="104">
-              <caret line="4" column="13" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="BYD.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/GOF23/src/factory/factorymethod/BYD.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -121,7 +110,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Seat.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Seat.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/GOF23/src/factory/abstractFcatory/Seat.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="416">
@@ -131,6 +120,21 @@
                 <element signature="e#200#201#0" expanded="true" />
                 <element signature="e#277#278#0" expanded="true" />
                 <element signature="e#321#322#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Tyre.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/GOF23/src/factory/abstractFcatory/Tyre.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="312">
+              <caret line="12" column="9" lean-forward="false" selection-start-line="12" selection-start-column="9" selection-end-line="12" selection-end-column="9" />
+              <folding>
+                <element signature="e#156#157#0" expanded="true" />
+                <element signature="e#197#198#0" expanded="true" />
+                <element signature="e#274#275#0" expanded="true" />
+                <element signature="e#315#316#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -146,8 +150,8 @@
         <option value="UML Class" />
         <option value="Salt Wireframe" />
         <option value="UML Sequence" />
-        <option value="Interface" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -187,7 +191,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/Reflection/test6.java" />
         <option value="$PROJECT_DIR$/src/DynamicComplie.java" />
         <option value="$PROJECT_DIR$/src/DynamicComplie/te.java" />
         <option value="$PROJECT_DIR$/src/DynamicComplie/test1.java" />
@@ -238,6 +241,7 @@
         <option value="$PROJECT_DIR$/GOF23/src/factory/factorymethod/test1.java" />
         <option value="$PROJECT_DIR$/GOF23/src/factory/abstractFcatory/Engine.java" />
         <option value="$PROJECT_DIR$/GOF23/src/factory/abstractFcatory/Seat.java" />
+        <option value="$PROJECT_DIR$/GOF23/src/factory/abstractFcatory/Tyre.java" />
       </list>
     </option>
   </component>
@@ -332,6 +336,15 @@
               <item name="factory" type="462c0819:PsiDirectoryNode" />
               <item name="abstractFcatory" type="462c0819:PsiDirectoryNode" />
               <item name="Engine.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
+            </path>
+            <path>
+              <item name="learn" type="b2602c69:ProjectViewProjectNode" />
+              <item name="learn" type="462c0819:PsiDirectoryNode" />
+              <item name="GOF23" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="factory" type="462c0819:PsiDirectoryNode" />
+              <item name="abstractFcatory" type="462c0819:PsiDirectoryNode" />
+              <item name="Tyre.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
             </path>
           </expand>
           <select />
@@ -716,13 +729,6 @@
       <option name="presentableId" value="Default" />
       <updated>1497261411846</updated>
     </task>
-    <task id="LOCAL-00101" summary="update">
-      <created>1500975445220</created>
-      <option name="number" value="00101" />
-      <option name="presentableId" value="LOCAL-00101" />
-      <option name="project" value="LOCAL" />
-      <updated>1500975445220</updated>
-    </task>
     <task id="LOCAL-00102" summary="update">
       <created>1501059451498</created>
       <option name="number" value="00102" />
@@ -1059,7 +1065,14 @@
       <option name="project" value="LOCAL" />
       <updated>1503293372080</updated>
     </task>
-    <option name="localTasksCounter" value="150" />
+    <task id="LOCAL-00150" summary="updata">
+      <created>1503301527525</created>
+      <option name="number" value="00150" />
+      <option name="presentableId" value="LOCAL-00150" />
+      <option name="project" value="LOCAL" />
+      <updated>1503301527525</updated>
+    </task>
+    <option name="localTasksCounter" value="151" />
     <servers />
   </component>
   <component name="TodoView" selected-index="1">
@@ -1175,13 +1188,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/testJVM/src/FileSystemClassLoader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1716">
-          <caret line="68" column="5" lean-forward="false" selection-start-line="6" selection-start-column="3" selection-end-line="68" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/testJVM/src/test3.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="338">
@@ -1545,6 +1551,19 @@
             <element signature="e#200#201#0" expanded="true" />
             <element signature="e#277#278#0" expanded="true" />
             <element signature="e#321#322#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GOF23/src/factory/abstractFcatory/Tyre.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="12" column="9" lean-forward="false" selection-start-line="12" selection-start-column="9" selection-end-line="12" selection-end-column="9" />
+          <folding>
+            <element signature="e#156#157#0" expanded="true" />
+            <element signature="e#197#198#0" expanded="true" />
+            <element signature="e#274#275#0" expanded="true" />
+            <element signature="e#315#316#0" expanded="true" />
           </folding>
         </state>
       </provider>
