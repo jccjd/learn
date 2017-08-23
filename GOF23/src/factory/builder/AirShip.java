@@ -5,15 +5,15 @@ package factory.builder;
  * */
 
 public class AirShip {
-    private OrbitalNodule orbitalModule;
+    private OrbitalModule orbitalModule;
     private Engine engine;
     private EscapeTower escapeTower;//逃逸塔
 
-    public OrbitalNodule getOrbitalModule() {
+    public OrbitalModule getOrbitalModule() {
         return orbitalModule;
     }
 
-    public void setOrbitalModule(OrbitalNodule orbitalModule) {
+    public void setOrbitalModule(OrbitalModule orbitalModule) {
         this.orbitalModule = orbitalModule;
     }
 
@@ -33,7 +33,7 @@ public class AirShip {
         this.escapeTower = escapeTower;
     }
 }
-class OrbitalNodule {
+class OrbitalModule {
     private String name;
 
     public String getName() {
@@ -44,7 +44,7 @@ class OrbitalNodule {
         this.name = name;
     }
 
-    public OrbitalNodule(String name) {
+    public OrbitalModule(String name) {
 
         this.name = name;
     }
