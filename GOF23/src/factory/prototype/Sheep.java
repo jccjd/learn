@@ -1,11 +1,12 @@
 package factory.prototype;
 
 
+import java.io.Serializable;
 import java.util.Date;
 /**
  * 浅复制
  * */
-public class Sheep implements Cloneable{//克隆羊1997
+public class Sheep implements Cloneable, Serializable{//克隆羊1997
 
     private String name;
     private Date birthday;
