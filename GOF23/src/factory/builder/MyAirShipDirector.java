@@ -12,6 +12,7 @@ public class MyAirShipDirector implements AirShipDirector{
         Engine engine =  builder.builderengine();
         OrbitalModule orbitalModule = builder.builderOrbitalModule();
         EscapeTower escapeTower = builder.builderEscapeTower();
+       /*组装*/
         AirShip ship = new AirShip();
         ship.setEngine(engine);
         ship.setEscapeTower(escapeTower);

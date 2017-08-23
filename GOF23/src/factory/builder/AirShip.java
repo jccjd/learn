@@ -9,6 +9,11 @@ public class AirShip {
     private Engine engine;
     private EscapeTower escapeTower;//逃逸塔
 
+    public void launch() {
+        System.out.println("launch");
+    }
+
+
     public OrbitalModule getOrbitalModule() {
         return orbitalModule;
     }
