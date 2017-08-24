@@ -1,4 +1,4 @@
-package factory.staticproxy;
+package factory.proxy.staticproxy;
 
 public class RealStart implements Star{
 

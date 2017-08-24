@@ -1,4 +1,4 @@
-package factory.staticproxy;
+package factory.proxy.staticproxy;
 
 public class Client {
     public static void main(String[] args) {

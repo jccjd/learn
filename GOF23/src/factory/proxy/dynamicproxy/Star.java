@@ -1,4 +1,4 @@
-package factory.staticproxy;
+package factory.proxy.dynamicproxy;
 
 public interface Star {
     void confer();

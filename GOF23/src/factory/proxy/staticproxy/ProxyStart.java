@@ -1,6 +1,6 @@
-package factory.staticproxy;
+package factory.proxy.staticproxy;
 
-public class ProxyStart implements Star{
+public class ProxyStart implements Star {
 
     private Star star;
 
