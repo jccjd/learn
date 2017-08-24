@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fee7de50-5c15-4729-bd0f-8e6025f4a492" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/GOF23/src/factory/proxy/dynamicproxy/ProxyStart.java" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GOF23/src/factory/bridge/Computer.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GOF23/src/factory/proxy/dynamicproxy/Client.java" afterPath="$PROJECT_DIR$/GOF23/src/factory/proxy/dynamicproxy/Client.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GOF23/src/factory/proxy/dynamicproxy/StarHandler.java" afterPath="$PROJECT_DIR$/GOF23/src/factory/proxy/dynamicproxy/StarHandler.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -28,8 +27,8 @@
       <file leaf-file-name="Sheep2.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/GOF23/src/factory/prototype/Sheep2.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+            <state relative-caret-position="470">
+              <caret line="45" column="0" lean-forward="true" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -50,18 +49,7 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="52">
               <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-              <folding>
-                <element signature="e#116#117#0" expanded="true" />
-                <element signature="e#172#173#0" expanded="true" />
-                <element signature="e#220#221#0" expanded="true" />
-                <element signature="e#282#283#0" expanded="true" />
-                <element signature="e#328#329#0" expanded="true" />
-                <element signature="e#388#389#0" expanded="true" />
-                <element signature="e#428#429#0" expanded="true" />
-                <element signature="e#482#483#0" expanded="true" />
-                <element signature="e#530#531#0" expanded="true" />
-                <element signature="e#592#593#0" expanded="true" />
-              </folding>
+              <folding />
             </state>
           </provider>
         </entry>
@@ -106,15 +94,50 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="StarHandler.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="StarHandler.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/GOF23/src/factory/proxy/dynamicproxy/StarHandler.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="208">
-              <caret line="8" column="36" lean-forward="false" selection-start-line="8" selection-start-column="36" selection-end-line="8" selection-end-column="36" />
+            <state relative-caret-position="286">
+              <caret line="12" column="22" lean-forward="true" selection-start-line="12" selection-start-column="22" selection-end-line="12" selection-end-column="22" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#436#437#0" expanded="true" />
-                <element signature="e#476#477#0" expanded="true" />
+                <element signature="e#489#490#0" expanded="true" />
+                <element signature="e#529#530#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Computer.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/GOF23/src/factory/bridge/Computer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="568">
+              <caret line="74" column="1" lean-forward="true" selection-start-line="74" selection-start-column="1" selection-end-line="74" selection-end-column="1" />
+              <folding>
+                <element signature="e#147#148#0" expanded="true" />
+                <element signature="e#192#193#0" expanded="true" />
+                <element signature="e#269#270#0" expanded="true" />
+                <element signature="e#313#314#0" expanded="true" />
+                <element signature="e#387#388#0" expanded="true" />
+                <element signature="e#428#429#0" expanded="true" />
+                <element signature="e#508#509#0" expanded="true" />
+                <element signature="e#559#560#0" expanded="true" />
+                <element signature="e#637#638#0" expanded="true" />
+                <element signature="e#687#688#0" expanded="true" />
+                <element signature="e#759#760#0" expanded="true" />
+                <element signature="e#806#807#0" expanded="true" />
+                <element signature="e#884#885#0" expanded="true" />
+                <element signature="e#933#934#0" expanded="true" />
+                <element signature="e#1009#1010#0" expanded="true" />
+                <element signature="e#1057#1058#0" expanded="true" />
+                <element signature="e#1127#1128#0" expanded="true" />
+                <element signature="e#1172#1173#0" expanded="true" />
+                <element signature="e#1253#1254#0" expanded="true" />
+                <element signature="e#1306#1307#0" expanded="true" />
+                <element signature="e#1386#1387#0" expanded="true" />
+                <element signature="e#1438#1439#0" expanded="true" />
+                <element signature="e#1512#1513#0" expanded="true" />
+                <element signature="e#1561#1562#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -140,8 +163,8 @@
         <option value="UML Class" />
         <option value="Salt Wireframe" />
         <option value="UML Sequence" />
-        <option value="Interface" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -150,9 +173,13 @@
       <find>Coll</find>
       <find>Collections</find>
       <find>CRLF</find>
+      <find>lenovo</find>
+      <find>Dell</find>
     </findStrings>
     <replaceStrings>
       <replace />
+      <replace>Dell</replace>
+      <replace>shenzhou</replace>
     </replaceStrings>
     <dirStrings>
       <dir>C:\Users\lenovo\Desktop\code\rejava\learn</dir>
@@ -181,7 +208,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/GOF23/src/factory/we.puml" />
         <option value="$PROJECT_DIR$/GOF23/src/factory/l.properties" />
         <option value="$PROJECT_DIR$/GOF23/src/factory/test1.java" />
         <option value="$PROJECT_DIR$/GOF23/src/factory/test2.java" />
@@ -232,6 +258,7 @@
         <option value="$PROJECT_DIR$/GOF23/src/factory/proxy/dynamicproxy/RealStart.java" />
         <option value="$PROJECT_DIR$/GOF23/src/factory/proxy/dynamicproxy/Client.java" />
         <option value="$PROJECT_DIR$/GOF23/src/factory/proxy/dynamicproxy/StarHandler.java" />
+        <option value="$PROJECT_DIR$/GOF23/src/factory/bridge/Computer.java" />
       </list>
     </option>
   </component>
@@ -716,13 +743,6 @@
       <option name="presentableId" value="Default" />
       <updated>1497261411846</updated>
     </task>
-    <task id="LOCAL-00118" summary="update">
-      <created>1501501719534</created>
-      <option name="number" value="00118" />
-      <option name="presentableId" value="LOCAL-00118" />
-      <option name="project" value="LOCAL" />
-      <updated>1501501719535</updated>
-    </task>
     <task id="LOCAL-00119" summary="update">
       <created>1501505747627</created>
       <option name="number" value="00119" />
@@ -1059,7 +1079,14 @@
       <option name="project" value="LOCAL" />
       <updated>1503555064262</updated>
     </task>
-    <option name="localTasksCounter" value="167" />
+    <task id="LOCAL-00167" summary="updata">
+      <created>1503556601666</created>
+      <option name="number" value="00167" />
+      <option name="presentableId" value="LOCAL-00167" />
+      <option name="project" value="LOCAL" />
+      <updated>1503556601666</updated>
+    </task>
+    <option name="localTasksCounter" value="168" />
     <servers />
   </component>
   <component name="TodoView" selected-index="1">
@@ -1084,7 +1111,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32331902" sideWeight="0.28139183" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329429" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3276923" sideWeight="0.48487142" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2631579" sideWeight="0.58317214" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.20775624" sideWeight="0.58317214" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -1175,13 +1202,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/testJVM/src/DecrptClassLoder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1430">
-          <caret line="61" column="41" lean-forward="false" selection-start-line="61" selection-start-column="41" selection-end-line="61" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/testJVM/src/EncrptUtil.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="312">
@@ -1397,6 +1417,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="494">
           <caret line="19" column="45" lean-forward="false" selection-start-line="11" selection-start-column="2" selection-end-line="19" selection-end-column="45" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1404,6 +1425,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="390">
           <caret line="16" column="41" lean-forward="false" selection-start-line="16" selection-start-column="41" selection-end-line="16" selection-end-column="41" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1460,54 +1484,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/GOF23/src/factory/prototype/Sheep2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/GOF23/src/factory/proxy/staticproxy/Client.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="52">
-          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/GOF23/src/factory/proxy/staticproxy/Star.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="52">
           <caret line="2" column="17" lean-forward="false" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/GOF23/src/factory/proxy/staticproxy/ProxyStart.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="52">
-          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/GOF23/src/factory/proxy/staticproxy/RealStart.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="52">
-          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-          <folding>
-            <element signature="e#116#117#0" expanded="true" />
-            <element signature="e#172#173#0" expanded="true" />
-            <element signature="e#220#221#0" expanded="true" />
-            <element signature="e#282#283#0" expanded="true" />
-            <element signature="e#328#329#0" expanded="true" />
-            <element signature="e#388#389#0" expanded="true" />
-            <element signature="e#428#429#0" expanded="true" />
-            <element signature="e#482#483#0" expanded="true" />
-            <element signature="e#530#531#0" expanded="true" />
-            <element signature="e#592#593#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1527,18 +1508,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/GOF23/src/factory/proxy/dynamicproxy/Star.java">
+    <entry file="file://$PROJECT_DIR$/GOF23/src/factory/prototype/Sheep2.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="52">
-          <caret line="2" column="17" lean-forward="false" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/GOF23/src/factory/proxy/dynamicproxy/RealStart.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="52">
-          <caret line="2" column="36" lean-forward="false" selection-start-line="2" selection-start-column="36" selection-end-line="2" selection-end-column="36" />
+        <state relative-caret-position="470">
+          <caret line="45" column="0" lean-forward="true" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -1551,14 +1524,87 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/GOF23/src/factory/proxy/dynamicproxy/RealStart.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="52">
+          <caret line="2" column="36" lean-forward="false" selection-start-line="2" selection-start-column="36" selection-end-line="2" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GOF23/src/factory/proxy/dynamicproxy/Star.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="52">
+          <caret line="2" column="17" lean-forward="false" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GOF23/src/factory/proxy/staticproxy/ProxyStart.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="52">
+          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GOF23/src/factory/proxy/staticproxy/Client.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="52">
+          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GOF23/src/factory/proxy/staticproxy/RealStart.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="52">
+          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/GOF23/src/factory/proxy/dynamicproxy/StarHandler.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
-          <caret line="8" column="36" lean-forward="false" selection-start-line="8" selection-start-column="36" selection-end-line="8" selection-end-column="36" />
+        <state relative-caret-position="286">
+          <caret line="12" column="22" lean-forward="true" selection-start-line="12" selection-start-column="22" selection-end-line="12" selection-end-column="22" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#436#437#0" expanded="true" />
-            <element signature="e#476#477#0" expanded="true" />
+            <element signature="e#489#490#0" expanded="true" />
+            <element signature="e#529#530#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GOF23/src/factory/bridge/Computer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="568">
+          <caret line="74" column="1" lean-forward="true" selection-start-line="74" selection-start-column="1" selection-end-line="74" selection-end-column="1" />
+          <folding>
+            <element signature="e#147#148#0" expanded="true" />
+            <element signature="e#192#193#0" expanded="true" />
+            <element signature="e#269#270#0" expanded="true" />
+            <element signature="e#313#314#0" expanded="true" />
+            <element signature="e#387#388#0" expanded="true" />
+            <element signature="e#428#429#0" expanded="true" />
+            <element signature="e#508#509#0" expanded="true" />
+            <element signature="e#559#560#0" expanded="true" />
+            <element signature="e#637#638#0" expanded="true" />
+            <element signature="e#687#688#0" expanded="true" />
+            <element signature="e#759#760#0" expanded="true" />
+            <element signature="e#806#807#0" expanded="true" />
+            <element signature="e#884#885#0" expanded="true" />
+            <element signature="e#933#934#0" expanded="true" />
+            <element signature="e#1009#1010#0" expanded="true" />
+            <element signature="e#1057#1058#0" expanded="true" />
+            <element signature="e#1127#1128#0" expanded="true" />
+            <element signature="e#1172#1173#0" expanded="true" />
+            <element signature="e#1253#1254#0" expanded="true" />
+            <element signature="e#1306#1307#0" expanded="true" />
+            <element signature="e#1386#1387#0" expanded="true" />
+            <element signature="e#1438#1439#0" expanded="true" />
+            <element signature="e#1512#1513#0" expanded="true" />
+            <element signature="e#1561#1562#0" expanded="true" />
           </folding>
         </state>
       </provider>

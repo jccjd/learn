@@ -6,9 +6,11 @@ import java.lang.reflect.Method;
 public class StarHandler implements InvocationHandler{
     @Override
     public Object invoke(Object proxy, Method method, Object[] args) throws Throwable {
-        System.out.println("########");
-        method.invoke(realstar,args);
-        return null;
+        Object object = null;
+        if (method.getName().equals("sing")) {
+            method.invoke(realstar,args);
+        }
+        return object;
     }
 
     Star realstar;
