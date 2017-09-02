@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="fee7de50-5c15-4729-bd0f-8e6025f4a492" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GOF23/src/factory/composite/AbstractFile.java" afterPath="$PROJECT_DIR$/GOF23/src/factory/composite/AbstractFile.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -75,12 +76,18 @@
       <file leaf-file-name="AbstractFile.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/GOF23/src/factory/composite/AbstractFile.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="286">
-              <caret line="11" column="35" lean-forward="false" selection-start-line="11" selection-start-column="35" selection-end-line="11" selection-end-column="35" />
+            <state relative-caret-position="568">
+              <caret line="38" column="20" lean-forward="false" selection-start-line="38" selection-start-column="20" selection-end-line="38" selection-end-column="20" />
               <folding>
-                <element signature="e#236#237#0" expanded="true" />
-                <element signature="e#281#282#0" expanded="true" />
-                <element signature="e#319#320#0" expanded="true" />
+                <element signature="imports" expanded="true" />
+                <element signature="e#256#257#0" expanded="true" />
+                <element signature="e#288#289#0" expanded="true" />
+                <element signature="e#333#334#0" expanded="true" />
+                <element signature="e#385#386#0" expanded="true" />
+                <element signature="e#491#492#0" expanded="true" />
+                <element signature="e#523#524#0" expanded="true" />
+                <element signature="e#568#569#0" expanded="true" />
+                <element signature="e#620#621#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -708,13 +715,6 @@
       <option name="presentableId" value="Default" />
       <updated>1497261411846</updated>
     </task>
-    <task id="LOCAL-00126" summary="update">
-      <created>1502372462922</created>
-      <option name="number" value="00126" />
-      <option name="presentableId" value="LOCAL-00126" />
-      <option name="project" value="LOCAL" />
-      <updated>1502372462922</updated>
-    </task>
     <task id="LOCAL-00127" summary="update">
       <created>1502373243472</created>
       <option name="number" value="00127" />
@@ -1051,7 +1051,14 @@
       <option name="project" value="LOCAL" />
       <updated>1504344672159</updated>
     </task>
-    <option name="localTasksCounter" value="175" />
+    <task id="LOCAL-00175" summary="updata">
+      <created>1504344680266</created>
+      <option name="number" value="00175" />
+      <option name="presentableId" value="LOCAL-00175" />
+      <option name="project" value="LOCAL" />
+      <updated>1504344680266</updated>
+    </task>
+    <option name="localTasksCounter" value="176" />
     <servers />
   </component>
   <component name="TodoView" selected-index="1">
@@ -1065,6 +1072,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="784" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32816902" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -1216,12 +1224,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/GOF23/src/factory/composite/AbstractFile.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="11" column="35" lean-forward="false" selection-start-line="11" selection-start-column="35" selection-end-line="11" selection-end-column="35" />
+        <state relative-caret-position="568">
+          <caret line="38" column="20" lean-forward="false" selection-start-line="38" selection-start-column="20" selection-end-line="38" selection-end-column="20" />
           <folding>
-            <element signature="e#236#237#0" expanded="true" />
-            <element signature="e#281#282#0" expanded="true" />
-            <element signature="e#319#320#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+            <element signature="e#256#257#0" expanded="true" />
+            <element signature="e#288#289#0" expanded="true" />
+            <element signature="e#333#334#0" expanded="true" />
+            <element signature="e#385#386#0" expanded="true" />
+            <element signature="e#491#492#0" expanded="true" />
+            <element signature="e#523#524#0" expanded="true" />
+            <element signature="e#568#569#0" expanded="true" />
+            <element signature="e#620#621#0" expanded="true" />
           </folding>
         </state>
       </provider>
